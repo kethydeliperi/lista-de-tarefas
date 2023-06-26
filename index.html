@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/tarefas.png" alt="Lista de tarefas">
+            <h1>Lista de tarefas</h1>
+            </header>
+            <form id="form-tarefas">
+                <input type="text" id="nova-tarefa" required placeholder="Adicionar uma nova tarefa">
+                <button type="submit">Adicionar</button>
+            </form>
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Tarefas</th>
+                        </tr>
+                    </thead>
+                    <tbody id="novo-item">
+                    </tbody>
+                </table>
+        </div>
+        <script src="./main.js"></script>
+</body>
+</html>
